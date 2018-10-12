@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.armyapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Module_Knowledge"
+            android:theme="@style/ThemeKnowledge"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QuizActivity"
+            android:theme="@style/ThemeKnowledge"
+            android:parentActivityName=".Module_Knowledge" />
+        <activity
+            android:name=".Module_PT"
+            android:theme="@style/ThemePT"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Module_RM"
+            android:theme="@style/ThemeRM"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Module_Resiliency"
+            android:theme="@style/ThemeResiliency"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Module_ReturnFromBasic"
+            android:theme="@style/ThemeReturnFromBasic"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Module_WhoAreWe"
+            android:theme="@style/ThemeWhoWeAre"
+            android:parentActivityName=".MainActivity" />
+
+    </application>
+
+</manifest>

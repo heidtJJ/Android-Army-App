@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A5A565</color>
+    <color name="colorPrimaryDark">#384E1D</color>
+    <color name="colorAccent">#D3A500</color>
+
+    <color name="red">#F15050</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9dbf35</color>
+    <color name="green">#48D26B</color>
+    <color name="green_dark">#223F1C</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#37c4c6</color>
+    <color name="darkblue">#5A9CEE</color>
+    <color name="darkblue_dark">#417eca</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkviolet_dark">#683dd4</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#b33ec9</color>
+    <color name="indigo">#9D4B99</color>
+    <color name="pink">#FE3D81</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_green">#1c2724</color>
+    <color name="Grey">#d3d3d3</color>
+    <color name="army_tan">#A5A565</color>
+    <color name="army_dark_tan">#80804D</color>
+    <color name="army_dark_green">#595936</color>
+    <color name="army_green">#384E1D</color>
+
+    <color name="quizSubmitButton">#6E8A11</color>
+    <color name="quizBackground">#F6F6DE</color>
+
+
+    <color name="pushups">#96CC4F</color>
+    <color name="soldiersCreed">#70993B</color>
+    <color name="dAndC">#54722C</color>
+    <color name="importantDates">#374C1D</color>
+
+    <color name="situps">#DBC68E</color>
+    <color name="armyValues">#B6A576</color>
+    <color name="phoeticAlphabet">#8E815C</color>
+    <color name="resilienceTraining">#685E43</color>
+
+    <color name="running">#CCCC7C</color>
+    <color name="rankStructure">#A5A565</color>
+    <color name="weapons">#80804D</color>
+    <color name="armySong">#595936</color>
+
+
+</resources>

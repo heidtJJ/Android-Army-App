@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dp">
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/header_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nav_menu_header_bg"
+                app:srcCompat="@drawable/man" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/header_cover_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-130dp"
+                android:clickable="true"
+                android:elevation="5dp"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/man"
+                app:civ_border_color="#ebca0707"
+                app:civ_border_width="3dp" />
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_cover_image"
+                android:background="@color/army_dark_tan"
+                android:elevation="4dp"
+                android:paddingBottom="24dp">
+
+
+                <ImageView
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="70dp"
+                    android:text="Jason Boring"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Binghamton, NY"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/bct_site"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/location"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Fort Benning, GA"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ship_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bct_site"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Ship Date: August 17, 2018"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/recruiter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ship_date"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="SSG Wheeler"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/pushups"
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_columnSpan="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:text="Pushups\n\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/situps"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:text="Situps\n\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/running"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="0"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Running\n\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/soldiersCreed"
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Soldier's\nCreed\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/armyValues"
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Army\nValues\n\n99" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/rankStructure"
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Rank\nStructure\n\n99" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/dAndC"
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="2"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Drill and\nCeremony\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/phoeticAlphabet"
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="2"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Phoetic\nAlphabet\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/weapons"
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="2"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Weapons\n\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/importantDates"
+                android:id="@+id/button10"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="3"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Important\nDates\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/resilienceTraining"
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="3"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Resilience\nTraining\n\n99" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:backgroundTint="@color/armySong"
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/grid_height"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="3"
+                android:layout_rowSpan="1"
+                android:layout_rowWeight="1"
+                android:text="Army\nSong\n\n99" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

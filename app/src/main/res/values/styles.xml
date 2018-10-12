@@ -1,0 +1,141 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeKnowledge" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/army_dark_green</item>
+        <item name="colorAccent">@color/quizSubmitButton</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="ThemeKnowledgeQuiz" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/army_green</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="ThemePT" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/lime_dark</item>
+        <item name="colorAccent">@color/lime</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeRM" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow_dark</item>
+        <item name="colorAccent">@color/yellow</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeResiliency" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeReturnFromBasic" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeWhoWeAre" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/darkblue</item>
+        <item name="colorPrimaryDark">@color/darkblue_dark</item>
+        <item name="colorAccent">@color/darkblue</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.Shrine" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#e0e0e0</item>
+        <item name="colorAccent">#607d8b</item>
+        <item name="toolbarStyle">@style/Widget.Shrine.Toolbar</item>
+    </style>
+
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">12dp</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Shrine.Logo</item>
+    </style>
+
+    <style name="Widget.Shrine.CollapsingToolbar" parent="">
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.Shrine.Logo</item>
+        <item name="contentScrim">?attr/colorPrimary</item>
+        <item name="expandedTitleGravity">top</item>
+        <item name="expandedTitleMarginStart">124dp</item>
+        <item name="expandedTitleMarginTop">140dp</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.Shrine.Logo</item>
+        <item name="scrimVisibleHeightTrigger">140dp</item>
+    </style>
+
+    <style name="Widget.Shrine.CollapsingToolbarImage" parent="">
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:layout_marginLeft">-124dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="Widget.Shrine.CollapsingToolbarContent" parent="">
+        <item name="android:layout_marginTop">160dp</item>
+        <item name="android:layout_marginLeft">124dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TextAppearance.Shrine.Logo" parent="TextAppearance.AppCompat.Display3">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ThemeOverlay.Shrine.BottomNavigation" parent="">
+        <item name="colorPrimary">?attr/colorAccent</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/indigo</item>
+        <item name="colorButtonNormal">@color/pink</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SubmitButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/indigo</item>
+        <item name="colorButtonNormal">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+</resources>
