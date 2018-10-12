@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "937188743931",
+    "firebase_url": "https://armyapp-e4f57.firebaseio.com",
+    "project_id": "armyapp-e4f57",
+    "storage_bucket": "armyapp-e4f57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937188743931:android:574e68c8b6d384d9",
+        "android_client_info": {
+          "package_name": "com.example.android.armyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937188743931-8ffug4sc2vk0u0kcu6o6lten3pn9ohd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.armyapp",
+            "certificate_hash": "b12ecdb37512e54de2816ee3f906315011bb0b28"
+          }
+        },
+        {
+          "client_id": "937188743931-p691hevl1pdi7natrdc1ug3274i3pkpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5gQqdfy-_9a5Lz2cCDsbK0GOiBEb6RWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937188743931-p691hevl1pdi7natrdc1ug3274i3pkpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
