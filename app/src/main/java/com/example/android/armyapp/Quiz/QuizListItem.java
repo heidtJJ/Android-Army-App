@@ -1,4 +1,4 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Quiz;
 
 import android.widget.ImageView;
 import android.widget.TextView;

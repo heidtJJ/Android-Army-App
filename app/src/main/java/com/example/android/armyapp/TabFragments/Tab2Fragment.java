@@ -1,7 +1,6 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.TabFragments;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -10,9 +9,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
+
+import com.example.android.armyapp.Modules.Army_Knowledge_Mod.Module_Knowledge;
+import com.example.android.armyapp.Modules.Physical_Training_Mod.Module_PT;
+import com.example.android.armyapp.Modules.Rifle_Marksman_Mod.Module_RM;
+import com.example.android.armyapp.Modules.Resiliency_Mod.Module_Resiliency;
+import com.example.android.armyapp.Modules.Return_From_Basic_Mod.Module_ReturnFromBasic;
+import com.example.android.armyapp.R;
 
 public class Tab2Fragment extends Fragment {
     private static final String TAG = "Tab2Fragment";

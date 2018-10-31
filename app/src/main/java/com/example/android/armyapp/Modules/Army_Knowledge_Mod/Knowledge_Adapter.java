@@ -1,23 +1,20 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Modules.Army_Knowledge_Mod;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import java.util.List;
+import com.example.android.armyapp.ModuleAdapter;
+import com.example.android.armyapp.Quiz.QuizActivity;
+import com.example.android.armyapp.R;
 
-public class KnowledgeAdapter extends ModuleAdapter {
+public class Knowledge_Adapter extends ModuleAdapter {
 
-    public KnowledgeAdapter(Context context) {
-        super(context);
+    private static  final String module = "ak";
+
+    public Knowledge_Adapter(Context context, int NUM_LESSONS_IN_MODULE) {
+        super(context, NUM_LESSONS_IN_MODULE);
     }
 
     @Override
@@ -31,7 +28,6 @@ public class KnowledgeAdapter extends ModuleAdapter {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent(v.getContext(), QuizActivity.class);
-                        String module = "ak";
                         String topic = "tas";
                         intent.putExtra("module", module);
                         intent.putExtra("topic", topic);

@@ -14,8 +14,10 @@ import android.widget.TextView;
 public abstract class ModuleAdapter extends RecyclerView.Adapter<ModuleAdapter.ViewHolder> {
 
     protected Context context;
+    protected int NUM_LESSONS_IN_MODULE = -1;
 
-    public ModuleAdapter(Context context) {
+    public ModuleAdapter(Context context, int NUM_LESSONS_IN_MODULE) {
+        this.NUM_LESSONS_IN_MODULE = NUM_LESSONS_IN_MODULE;
         this.context = context;
     }
 
@@ -32,7 +34,7 @@ public abstract class ModuleAdapter extends RecyclerView.Adapter<ModuleAdapter.V
 
     @Override
     public int getItemCount() {
-        return 8;
+        return NUM_LESSONS_IN_MODULE;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

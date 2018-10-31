@@ -1,28 +1,30 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Modules.Who_We_Are_Mod;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-public class Module_Resiliency extends AppCompatActivity {
+import com.example.android.armyapp.R;
+
+public class Module_WhoAreWe extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resiliency_module);
+        setContentView(R.layout.activity_whoweare_module);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle( R.string.resiliency );
+        getSupportActionBar().setTitle( R.string.who_are_we );
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                // todo: goto back activity from here
+                // todo: make sure everything is cleaned up here
                 finish();
                 return true;
 
@@ -35,5 +37,4 @@ public class Module_Resiliency extends AppCompatActivity {
     public void finish() {
         super.finish();
         overridePendingTransition(R.anim.stay, R.anim.slide_right);
-    }
-}
+    }}

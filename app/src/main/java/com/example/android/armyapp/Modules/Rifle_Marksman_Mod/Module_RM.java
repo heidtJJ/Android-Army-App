@@ -1,9 +1,11 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Modules.Rifle_Marksman_Mod;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.example.android.armyapp.R;
 
 public class Module_RM extends AppCompatActivity {
     @Override

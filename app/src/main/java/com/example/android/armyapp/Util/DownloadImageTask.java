@@ -1,4 +1,4 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Util;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

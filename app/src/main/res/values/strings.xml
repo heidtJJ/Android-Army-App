@@ -14,12 +14,19 @@
     <string name="gridHeight">100dp</string>
     <string name="pushups">Push-ups</string>
     <string name="situps">Sit-ups</string>
-
-
-    <string name="shr_product_category">Foundation For Your Career</string>
-    <string name="shr_product_description">
+    <string name="Knowledge_Mod_Title">Foundation For Your Career</string>
+    <string name="Knowledge_Mod_Desc">
         Learn the regimen and skills that it takes to become a soldier
     </string>
+    <string name="PT_Mod_Title">The Standard for Soldier Fitness</string>
+    <string name="PT_Mod_Desc">
+        Learn how to become the most physically fit Soldier that you can be.
+    </string>
+
+
+
+    <string name="Module_Title"></string>
+    <string name="Module_Description"></string>
     <string name="shr_category_clothing">Clothing</string>
     <string name="shr_category_home">Home</string>
     <string name="shr_category_popsicles">Popsicles</string>

@@ -1,4 +1,4 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Util;
 
 import java.net.MalformedURLException;
 import java.net.URL;

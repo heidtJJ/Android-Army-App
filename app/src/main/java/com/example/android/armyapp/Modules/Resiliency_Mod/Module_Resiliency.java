@@ -1,21 +1,23 @@
-package com.example.android.armyapp;
+package com.example.android.armyapp.Modules.Resiliency_Mod;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-public class Module_ReturnFromBasic extends AppCompatActivity {
+import com.example.android.armyapp.R;
+
+public class Module_Resiliency extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_returnfrombasic_module);
+        setContentView(R.layout.activity_resiliency_module);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setTitle( R.string.returning_from_basic );
+        getSupportActionBar().setTitle( R.string.resiliency );
     }
 
     @Override
@@ -35,4 +37,5 @@ public class Module_ReturnFromBasic extends AppCompatActivity {
     public void finish() {
         super.finish();
         overridePendingTransition(R.anim.stay, R.anim.slide_right);
-    }}
+    }
+}
