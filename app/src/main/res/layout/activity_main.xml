@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             app:tabMode="scrollable"
             android:layout_height="wrap_content">
-            app:tabMode="scrollable"
+
 
             <android.support.design.widget.TabItem
                 android:id="@+id/homeTab"

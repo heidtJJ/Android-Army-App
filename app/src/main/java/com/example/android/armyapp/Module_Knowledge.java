@@ -1,15 +1,9 @@
 package com.example.android.armyapp;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
 import android.widget.ImageView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 public class Module_Knowledge extends Module_Starter {
@@ -18,8 +12,9 @@ public class Module_Knowledge extends Module_Starter {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_knowledge_module);
+        setContentView(R.layout.activity_module);
 
+        // Set up the app bar
         Toolbar appBar = findViewById(R.id.knowledge_app_bar);
         appBar.setTitle(R.string.army_knowledge);
         setSupportActionBar(appBar);
@@ -30,8 +25,8 @@ public class Module_Knowledge extends Module_Starter {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-
-        for (int i = 0; i < 8; ++i) {
+        NUM_LESSONS_IN_MODULE = 8;
+        for (int i = 0; i < NUM_LESSONS_IN_MODULE; ++i) {
 
             String youtubeVideoURL = "https://www.youtube.com/watch?v=fhWaJi1Hsfo";
             String youtubeThumbnailUrl = YoutubeImgHelper.getImgUrlFromVideo(youtubeVideoURL);

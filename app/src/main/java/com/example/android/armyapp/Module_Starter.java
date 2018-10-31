@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
 public abstract class Module_Starter extends AppCompatActivity {
+    protected int NUM_LESSONS_IN_MODULE = -1;
 
     protected RecyclerView recyclerView;
     protected RecyclerView.Adapter adapter;
