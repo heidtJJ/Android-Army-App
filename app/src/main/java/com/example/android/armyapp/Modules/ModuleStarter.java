@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 
-public abstract class Module_Starter extends AppCompatActivity {
+public abstract class ModuleStarter extends AppCompatActivity {
 
     protected RecyclerView recyclerView;
     protected RecyclerView.Adapter adapter;

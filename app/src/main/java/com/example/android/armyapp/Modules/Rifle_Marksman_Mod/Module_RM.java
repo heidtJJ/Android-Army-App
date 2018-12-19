@@ -1,18 +1,15 @@
 package com.example.android.armyapp.Modules.Rifle_Marksman_Mod;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.armyapp.Module_Starter;
-import com.example.android.armyapp.Modules.Army_Knowledge_Mod.Knowledge_Adapter;
+import com.example.android.armyapp.ModuleStarter;
 import com.example.android.armyapp.R;
 
-public class Module_RM extends Module_Starter {
+public class Module_RM extends ModuleStarter {
     private final static int NUM_LESSONS_IN_MODULE = 5;
 
     // This is the only method needed to populate content in the Army Marksmanship Module

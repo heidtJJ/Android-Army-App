@@ -6,11 +6,10 @@ import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.armyapp.Module_Starter;
-import com.example.android.armyapp.Modules.Resiliency_Mod.Resiliency_Adapter;
+import com.example.android.armyapp.ModuleStarter;
 import com.example.android.armyapp.R;
 
-public class Module_RetFromBasic extends Module_Starter {
+public class Module_RetFromBasic extends ModuleStarter {
     private final static int NUM_LESSONS_IN_MODULE = 4;
 
     // This is the only method needed to populate content in the Army Resiliency Module
