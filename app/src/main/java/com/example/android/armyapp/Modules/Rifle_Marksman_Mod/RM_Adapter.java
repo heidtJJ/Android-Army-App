@@ -1,4 +1,4 @@
-package com.example.android.armyapp.Modules.Army_Knowledge_Mod;
+package com.example.android.armyapp.Modules.Rifle_Marksman_Mod;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,11 +9,11 @@ import com.example.android.armyapp.ModuleAdapter;
 import com.example.android.armyapp.Quiz.QuizActivity;
 import com.example.android.armyapp.R;
 
-public class Knowledge_Adapter extends ModuleAdapter {
+public class RM_Adapter extends ModuleAdapter {
 
     private static final String module = "ak";
 
-    public Knowledge_Adapter(Context context, int NUM_LESSONS_IN_MODULE) {
+    public RM_Adapter(Context context, int NUM_LESSONS_IN_MODULE) {
         super(context, NUM_LESSONS_IN_MODULE);
     }
 

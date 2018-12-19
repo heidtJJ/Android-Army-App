@@ -14,6 +14,19 @@
     <string name="gridHeight">100dp</string>
     <string name="pushups">Push-ups</string>
     <string name="situps">Sit-ups</string>
+    <string name="run">Run</string>
+    <string name="pt_test">Take a PT Test</string>
+    <string name="take_test">Take the PT Test</string>
+
+
+    <string name="army_song">The Army Song</string>
+    <string name="army_values">Army Values</string>
+    <string name="soldiers_creed">The Soldier\'s Creed</string>
+    <string name="army_ranks">Army Ranks</string>
+    <string name="phonetic_alphabet">Phonetic Alphabet</string>
+    <string name="warrior_ethos">Warrior Ethos</string>
+    <string name="army_dates">Important Army Dates</string>
+
     <string name="Knowledge_Mod_Title">Foundation For Your Career</string>
     <string name="Knowledge_Mod_Desc">
         Learn the regimen and skills that it takes to become a soldier
@@ -21,6 +34,22 @@
     <string name="PT_Mod_Title">The Standard for Soldier Fitness</string>
     <string name="PT_Mod_Desc">
         Learn how to become the most physically fit Soldier that you can be.
+    </string>
+    <string name="RM_Mod_Title">The Standards for Rifle Marksmanship</string>
+    <string name="RM_Mod_Desc">
+        Learn the necessary skills of rifle marksmanship.
+    </string>
+    <string name="Resiliency_Mod_Title">The Foundation of a Soldier</string>
+    <string name="Resiliency_Mod_Desc">
+        Learn the necessary skill of resiliency.
+    </string>
+    <string name="RetFromBasic_Mod_Title">The essentials of Soldiering</string>
+    <string name="RetFromBasic_Mod_Desc">
+        Learn what it means to be a soldier.
+    </string>
+    <string name="WhoWeAre_Mod_Title">Where the knowledge in this app can take you</string>
+    <string name="WhoWeAre_Mod_Desc">
+        Learn what how to make your Soldier career successful.
     </string>
 
 

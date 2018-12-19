@@ -13,9 +13,9 @@ import android.widget.RelativeLayout;
 
 import com.example.android.armyapp.Modules.Army_Knowledge_Mod.Module_Knowledge;
 import com.example.android.armyapp.Modules.Physical_Training_Mod.Module_PT;
+import com.example.android.armyapp.Modules.Return_From_Basic_Mod.Module_RetFromBasic;
 import com.example.android.armyapp.Modules.Rifle_Marksman_Mod.Module_RM;
 import com.example.android.armyapp.Modules.Resiliency_Mod.Module_Resiliency;
-import com.example.android.armyapp.Modules.Return_From_Basic_Mod.Module_ReturnFromBasic;
 import com.example.android.armyapp.R;
 
 public class Tab2Fragment extends Fragment {
@@ -62,7 +62,7 @@ public class Tab2Fragment extends Fragment {
         view.findViewById(R.id.returnFromBasic_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(v.getContext(), Module_ReturnFromBasic.class));
+                startActivity(new Intent(v.getContext(), Module_RetFromBasic.class));
                 ((Activity) v.getContext()).overridePendingTransition(R.anim.slide_left,R.anim.stay);
             }
         });

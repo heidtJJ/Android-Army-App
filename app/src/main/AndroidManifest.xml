@@ -33,23 +33,23 @@
             android:parentActivityName=".Modules.Army_Knowledge_Mod.Module_Knowledge" />
         <activity
             android:name=".Modules.Physical_Training_Mod.Module_PT"
-            android:theme="@style/ThemePT"
+            android:theme="@style/ModuleTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Modules.Rifle_Marksman_Mod.Module_RM"
-            android:theme="@style/ThemeRM"
+            android:theme="@style/ModuleTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Modules.Resiliency_Mod.Module_Resiliency"
-            android:theme="@style/ThemeResiliency"
+            android:theme="@style/ModuleTheme"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Modules.Return_From_Basic_Mod.Module_ReturnFromBasic"
-            android:theme="@style/ThemeReturnFromBasic"
+            android:name=".Modules.Return_From_Basic_Mod.Module_RetFromBasic"
+            android:theme="@style/ModuleTheme"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Modules.Who_We_Are_Mod.Module_WhoAreWe"
-            android:theme="@style/ThemeWhoWeAre"
+            android:theme="@style/ModuleTheme"
             android:parentActivityName=".MainActivity" />
 
     </application>
